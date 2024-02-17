@@ -11,7 +11,7 @@ sign.addEventListener('submit',(e)=>{
     fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST',
   body: JSON.stringify({
-    email: email
+    title: email,
      
   }),
   headers: {
@@ -25,10 +25,9 @@ sign.addEventListener('submit',(e)=>{
     return response.json();
 })
 .then(data => {
-    console.log(data.email);
+    console.log(data.title);
     let d=document.getElementById('doc');
-    d.innerHTML=`<p> Thank you for signing up! Stay tuned for more 24 Carrots magic.
-</p>`
+    d.innerText=" Thank you for signing up! Stay tuned for more 24 Carrots magic";
 
  
     
