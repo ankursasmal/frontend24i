@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    top: 0;
+    position: fixed;
+}
+@media (max-width:1082px){
+    #nav1{
+        visibility: hidden;
+        overflow: hidden;
+
+    }
+    #nav2{
+        visibility: hidden;
+        overflow: hidden;
+
+    }
+    /* #Button{
+        visibility: visible;
+
+    } */
+
+}
+@media (min-width:1082px){
+    #nav9{
+        visibility: hidden;
+        overflow: hidden;
+
+    }
+    #Button{
+        visibility: hidden;
+        overflow: hidden;
+
+    }
+
+}
+@media (min-width:750px){
+    #nav9{
+        left:10px;
+    }
+}
+@media (max-width:617px){
+    #nav9{
+        left:10px;
+    }}
+
+ 
+    @media (max-width:567px){
+
+    #gfg2{
+        visibility: hidden;
+        overflow: hidden;
+
+    }
+    #gfg8{
+        visibility: hidden;
+        overflow: hidden;
+
+    }
+}
+    @media (min-width:560px){
+        #Button{
+            right:10px;
+        }
+    #flex1Text1{
+          
+        font-size: 38px;
+         
+    }
+    #flex1Text{
+       
+        font-size: 51px;
+         
+    }
+}
+
+#nav1{
+    
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#nav3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0 40px;
+
+}
+#nav2{
+    padding-left: 159px;
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+#nav9{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+#navbtn{
+    margin: 0 222px;
+ }
+ #navbtn1{
+width: 170px; }
+nav a{
+    padding-right: 20px;
+}
+  
+ .flex1{ 
+       /* margin: 25px 0;
+
+    padding: 0 16vw; */
+    display: flex;
+       flex-direction: column;
+     width: 47%;
+ }
+ .flex11{ 
+    /* margin: 25px 0;
+
+ padding: 0 16vw; */
+ display: flex;
+flex-direction: column;
+align-items: center;}
+ .flex2{ 
+    /* margin: 25px 0;*/
+
+ padding: 20px ; 
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ justify-content: space-between;
+ }
+#flex3{ 
+    /* margin: 25px 0;*/
+
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+   
+}
+
+.flex4{ 
+    /* margin: 25px 0;*/
+
+ padding: 16px 115px; 
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+  width: auto; 
+}
+.flex6{ 
+    /* margin: 25px 0;*/
+
+ padding: 22px 90px; 
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+  width: auto; 
+}
+.flex6 a{
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 35px;
+    align-items: center  !important;;
+
+}
+
+.flex4 a{
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 35px;
+    align-items: center;
+
+}
+
+ #flex1Text{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 77px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+#flex1Text5{
+font-family: "F37 Caslon", serif;
+    font-size: 22px;
+     align-items: center;
+     margin: 10px 30px;
+}
+#flex1Text1{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 83%;
+    letter-spacing: -4px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+ #flex1Text2{
+color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+#flex1Text3{
+    color:white;
+        text-align: center;
+        font-family: "F37 Caslon", serif;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 92%;
+        letter-spacing: -3px;
+        margin-top: 0px;
+        margin-bottom: 24px;
+    }
+    
+ /* @media (max-width:1125px){
+    #flex1Text{
+
+    font-size: 75px;
+    }
+ }
+ @media (max-width:975px){
+    #flex1Text{
+
+        font-size: 33px;
+        }
+    } */
+  .flex1 a{
+    font-size: 16px;
+    align-items: center;
+     margin: 30px auto 35px;
+    color: #1A4122;
+    letter-spacing: 0.16px;
+
+  }
+
+  
+.flex1 h3{
+     
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+ #vedio{
+    width: 100%;
+    height: 100%;
+    min-height: 550px;
+    object-fit: cover;
+ }
+ #fristimg{
+    width: 47%;
+    height: 100%;
+    object-fit: cover;
+    max-width: none;
+ }
+ #secondimg{
+    align-items: center;
+    min-height: 530px;
+     object-fit: cover;
+    max-width: 100%;
+ }
+ .flex5{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+ }
+ #scroll{
+    min-height: 600px;
+    object-fit: cover;
+   max-width: 42%;
+   margin:0 15px;
+ }
+ #vedio2{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+ }
+ #two_thing{
+    max-width: 300px;
+display: flex;
+align-items: center;
+flex-direction: column;
+    margin:10px  30px;
+}
+ 
+#flex11 a{
+    align-items: center;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    color: #1A4122;
+}
+#carsol{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#gfgbottom{color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 83px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}#gfg2{
+    content: '';
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: black;
+    width: 332px;
+    height: 173px;
+    display: block;
+    position: relative;
+    top: 40px;
+     margin: 602px auto 40px;
+    transform: rotate(20deg);
+
+}
+#insta{
+    font-size: 12px;
+}
+#foot{
+    margin-top: 40px;
+}
+ #foot h5{
+font-size: .75rem;
+} 
+#foot h2{
+    font-size: 1.75remrem;
+    }
+    #foot1 h4{
+        font-size: 1rem;
+        } 
